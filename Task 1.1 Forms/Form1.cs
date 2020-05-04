@@ -27,6 +27,7 @@ namespace Task_1._1_Forms
             int a = Convert.ToInt32(textBox3.Text);
 
             S = (b * (Math.Pow(q, a) - b)) / (q - b);
+
             textBox4.Text = S.ToString();
         }
     }
